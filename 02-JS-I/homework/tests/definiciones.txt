@@ -1,0 +1,20 @@
+que es una variable?
+es una forma de almacenar el valor de algo para despues usarlo existen tres diferentes:
+var
+let
+const
+var es la mas tipica 
+let se le da un valor similar pero diferente 
+const es una variable que no se puede modificar 
+
+que son las strings?
+son tipos de datos o bloques de texto que se definen entre comillas, cualquier texto entre comillas es una cadena o string.
+
+que son las funciones?
+son tipos particulares de objetos que son invocables 
+
+que son las declaraciones?
+especifica un nombre unico para entidad, junto con informacion sobre su tipo y otras caracteristicas.
+
+que son los valores booleanos?
+es basicamente que tiene dos opciones, activar o desactivar, verdadero o falso
