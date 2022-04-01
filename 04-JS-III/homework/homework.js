@@ -106,7 +106,7 @@ function numeroMasGrande(numeros) {
       maximo = numeros[i];
     }
   }
-  return maximos;
+  return maximo;
 }
 
 
@@ -144,7 +144,7 @@ function diaDeLaSemana(numeroDeDia) {
   if(numeroDeDia === 1 || numeroDeDia == 7){
     return "Es fin de semana"
   }
-  return "Es dia laboral"
+  return "Es dia Laboral"
 } 
 
 
@@ -185,7 +185,7 @@ function mesesDelAño(array) {
     }
   }
   if (nuevoArray.length < 3){
-    return "No se encontraron los meses perdidos"
+    return "No se encontraron los meses pedidos"
   }
   else {
     return nuevoArray;
@@ -225,7 +225,7 @@ function breakStatement(numero) {
     }
   }
   if (i < 10){
-    return "Se interrumpio la ejecucion";
+    return "Se interrumpió la ejecución";
   }
   else {
     return array;
