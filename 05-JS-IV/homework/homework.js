@@ -38,7 +38,7 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-  var objetoMisterioso = {
+  var objMisterioso = {
     numeroMisterioso: 4,
   };
   var result = objetoMisterioso.objetoMisterioso * 5;
@@ -126,11 +126,11 @@ function pasarUsuarioAPremium(usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  for (var i = 0; i < usuarios.lenght; i++){
+  for(var i = 0; i < usuarios.length; i++) {
     usuarios[i].esPremium = true;
-    }
-    return usuarios;
   }
+  return usuarios;
+}
 
 function sumarLikesDeUsuario(usuario) {
   // "usuario" tiene una propiedad llamada "posts" que es un array
@@ -140,15 +140,18 @@ function sumarLikesDeUsuario(usuario) {
   // Devuelve la suma
   // Tu código:
   var usuario = {
-    posts : [{
-      likes: 4
-    }]
-  };
+     posts: [{
+       likes: 4
+     }]
+   };
   var suma = 0;
-  for (var i = 0; i < usuario.posts.lenght; i++){
+
+  for(var i = 0; i < usuario.posts.length; i++) {
     suma = suma + usuario.posts[i].likes;
   }
+
   return suma;
+
 }
 
 function agregarMetodoCalculoDescuento(producto) {
@@ -165,12 +168,13 @@ function agregarMetodoCalculoDescuento(producto) {
     precio: 10,
     porcentajeDeDescuento: 5,
     calcularPrecioDescuento:
-  };
-  producto.calcularPrecioDescuento = function(){
-    return this.precio - (this.precio * this.porcentajeDeDescuento);
+  }
+  producto.calcularPrecioDescuento = function() {
+    return this.precio - ( this.precio * this.porcentajeDeDescuento );
   };
   return producto;
 }
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
