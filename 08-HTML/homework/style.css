@@ -1,0 +1,29 @@
+body {
+    height: 400px;;
+    background-image: url("https://i.pinimg.com/originals/94/53/de/9453de3c3118f574b209900e9e280eb7.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    width: 800px;
+    margin: 0 auto;
+    
+  }
+h1, h3, h4{
+    color: white;
+}
+
+img{
+    width: 400px;
+}
+.thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 50px;
+    border: 1px solid black;
+}
+.spanId{
+    font-size: 18px;
+    margin: 50px;
+    color: white;
+}
